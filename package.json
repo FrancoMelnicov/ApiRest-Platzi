@@ -1,0 +1,32 @@
+{
+  "name": "my-store",
+  "version": "1.0.0",
+  "description": "Poryecto para poner en práctica lo aprendido en el curso de Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "author": "Franco Melnicov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "faker": "^5.5.3",
+    "heroku": "^7.60.2",
+    "joi": "^17.6.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
